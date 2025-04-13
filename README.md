@@ -1,7 +1,29 @@
-File Read & Write Challenge 🖋️: Create a program that reads a file and writes a modified version to a new file.
-Error Handling Lab 🧪: Ask the user for a filename and handle errors if it doesn’t exist or can’t be read.
-Outcomes 🎉
+# 🧹 Log File Cleaner (Python)
 
-By the end of this module, you’ll be skilled in managing files efficiently in Python, ensuring error-free code that gracefully handles unexpected issues. Mastering files and exception handling will allow you to build strong, robust applications!
+This Python script reads a log file and removes all lines that contain the word `DEBUG`. It then saves the cleaned version to a new file.
 
+## ✅ What It Does
+
+- Asks the user for a log file name
+- Removes all `DEBUG` lines
+- Saves the result in a new file (e.g. `cleaned_filename.txt`)
+- Handles errors if the file doesn't exist or can't be read
+
+## 🚀 How to Run
+
+1. Make sure you have Python 3 installed.
+2. Save the script as `log_cleaner.py`.
+3. In your terminal or command prompt, run:
+
+```bash
+python log_cleaner.py
+Enter the name of the log file when asked.
+
+📝 Example
+Input (system.log):
+
+[INFO] Start
+[DEBUG] Something here
+[ERROR] Oops!
+Output (cleaned_system.log):
 
